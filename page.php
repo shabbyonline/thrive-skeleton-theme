@@ -13,7 +13,6 @@
 
 
 remove_action( 'genesis_loop', 'genesis_do_loop' );
-remove_action( 'genesis_loop', 'genesis_do_loop' );
 add_action( 'genesis_loop', 'custom_genesis_standard_loop' );
 
 remove_action( 'genesis_after_content', 'genesis_get_sidebar' );
