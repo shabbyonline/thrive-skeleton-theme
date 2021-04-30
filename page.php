@@ -13,6 +13,7 @@
 
 
 remove_action( 'genesis_loop', 'genesis_do_loop' );
+remove_action( 'genesis_loop', 'genesis_do_loop' );
 add_action( 'genesis_loop', 'custom_genesis_standard_loop' );
 
 remove_action( 'genesis_after_content', 'genesis_get_sidebar' );
@@ -20,7 +21,7 @@ remove_action( 'genesis_after_content', 'genesis_get_sidebar' );
 
 function custom_genesis_standard_loop() {
 
-	//* Use old loop hook structure if not supporting HTML5 SakShab
+	//* Use old loop hook structure if not supporting HTML5
 	if ( ! genesis_html5() ) {
 		genesis_legacy_loop();
 		return;
