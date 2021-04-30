@@ -15,7 +15,7 @@ function custom_genesis_standard_loop() {
 
 		echo '<div class="three-fourths first">';
 
-		//* Use old loop hook structure if not supporting HTML5
+		//* Use old loop hook structure if not supporting HTML5 and HTML4
 		if ( ! genesis_html5() ) {
 			genesis_legacy_loop();
 			return;
