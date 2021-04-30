@@ -20,7 +20,7 @@ remove_action( 'genesis_after_content', 'genesis_get_sidebar' );
 
 function custom_genesis_standard_loop() {
 
-	//* Use old loop hook structure if not supporting HTML5
+	//* Use old loop hook structure if not supporting HTML5 Shabbyonline
 	if ( ! genesis_html5() ) {
 		genesis_legacy_loop();
 		return;
