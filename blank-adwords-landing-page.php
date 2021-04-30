@@ -4,7 +4,7 @@
 Template Name: Blank Adwords Landing Page
 */
 
-// Add custom body class to the head - 2021
+// Add custom body class to the head - 2021 Shabby
 add_filter( 'body_class', 'add_body_class' );
 function add_body_class( $classes ) {
    $classes[] = 'landing-page';
