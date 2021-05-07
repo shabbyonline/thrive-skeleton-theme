@@ -15,7 +15,7 @@ do_action( 'genesis_doctype' );
 do_action( 'genesis_title' );
 do_action( 'genesis_meta' );
 
-wp_head(); //* we need this for plugins
+wp_head(); //* we need this for plugins to run correctly
 ?>
 </head>
 <?php
