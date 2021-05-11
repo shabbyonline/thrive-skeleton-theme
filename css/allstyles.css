@@ -262,8 +262,8 @@ h2.entry-title {
     padding-bottom: 30px;
 }
 
-header #main-header .fl-row-content-wrap {
-	background-color:#0CF;
+header .fl-row-content-wrap {
+	background-color:#C30 !important;
 }
 
 /* Default template that will go Edge-to-Edge*/
