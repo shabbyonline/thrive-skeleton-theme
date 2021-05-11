@@ -262,6 +262,10 @@ h2.entry-title {
     padding-bottom: 30px;
 }
 
+header #main-header .fl-row-content-wrap {
+	background-color:#0CF;
+}
+
 /* Default template that will go Edge-to-Edge*/
 .full-width {
 	width:100%;
