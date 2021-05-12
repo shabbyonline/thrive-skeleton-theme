@@ -1,3 +1,21 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ea0056391d0d8ad2a3dd3e2920709a2ba2bc20a1ed0b2f7cd9f3fd98b89d2913
-size 774
+<?php
+/**
+ * The template for displaying search forms in Marketify
+ *
+ * @package Marketify
+ */
+?>
+
+<div class="header-search">
+
+	<form method="get" class="search-form<?php echo '' != get_search_query() ? ' active' : ''; ?>" action="<?php echo esc_url( home_url( '/' ) ); ?>">
+		
+		<label>
+			<span class="screen-reader-text"><?php _ex( 'Search # or Keyword', 'label', 'southernhoney' ); ?></span>
+			<input type="search" class="search-field" placeholder="Search # or Keyword" value="<?php echo esc_attr( get_search_query() ); ?>" name="s" title="<?php echo esc_attr__( 'Search for:', 'casters' ); ?>">
+			<button type="submit" class="search-submit"><i class="fa fa-search"></i></button>
+		</label>
+		<input type="hidden" name="post_type" value="product" />
+	</form>
+
+</div>

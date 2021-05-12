@@ -4,7 +4,7 @@ remove_action( 'genesis_before_loop', 'genesis_do_breadcrumbs' );
 remove_action( 'genesis_before_entry_content', 'genesis_do_breadcrumbs' );
 //add_action( 'loop_start', 'genesis_do_breadcrumbs' );
 
-//* Remove default loop testing
+//* Remove default loop
 remove_action( 'genesis_loop', 'genesis_do_loop' );
 
 add_action( 'genesis_loop', 'genesis_404' );
