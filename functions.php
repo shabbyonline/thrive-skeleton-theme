@@ -28,7 +28,7 @@ add_action( 'wp_enqueue_scripts', 'parallax_enqueue_scripts_styles' );
 function parallax_enqueue_scripts_styles() {
 	// Styles
 	wp_enqueue_style( 'dashicons' );
-	wp_enqueue_style( 'custom-new', get_stylesheet_directory_uri() . '/css/allstyles.css', array() );
+	wp_enqueue_style( 'custom-github', get_stylesheet_directory_uri() . '/css/allstyles.css', array() );
 	//wp_enqueue_style( 'PTSans', get_stylesheet_directory_uri() . '/fonts/PTSans/PTSans.css', array() );
 	
 	// Example to load third party site
